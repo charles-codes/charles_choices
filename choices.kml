@@ -1,0 +1,2218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[DC Food & Drink]]></name>
+    <description><![CDATA[Restaurants, carry outs, bars, beer gardens, cafes, et al. Blurbs coming soon. <br><br>Google Maps limits the amount of layers one can add so consider this part 1/2, including the following neighborhood layers: H St, Ivy City, NOMA, Bloomingdale/Eckington, Shaw, Columbia Heights/Petworth, Adams Morgan, U St/14th St, Logan's Circle, and Capitol Hill.  ]]></description>
+    <Style id="icon-1899-01579B-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-01579B-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-01579B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-01579B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-01579B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-4E342E-normal">
+      <IconStyle>
+        <color>ff2e344e</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-4E342E-highlight">
+      <IconStyle>
+        <color>ff2e344e</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-4E342E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-4E342E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-4E342E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-4E342E-nodesc-normal">
+      <IconStyle>
+        <color>ff2e344e</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-4E342E-nodesc-highlight">
+      <IconStyle>
+        <color>ff2e344e</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-4E342E-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-4E342E-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-4E342E-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-673AB7-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-673AB7-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-673AB7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-673AB7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-673AB7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-673AB7-nodesc-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-673AB7-nodesc-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-673AB7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-673AB7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-673AB7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-C2185B-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-C2185B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-C2185B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-C2185B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-C2185B-nodesc-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-nodesc-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-C2185B-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-C2185B-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-C2185B-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>H Street</name>
+      <Placemark>
+        <name><![CDATA[Tony's Breakfast]]></name>
+        <description>Classic DC carryout. Chicken, sammies, mumbo sauce. Potato wedges, though?!?! MMMMMM!  You know the drill. Very cheap breakfast options. Neighborhood favorite. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.985722,38.899932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Biergarten Haus</name>
+        <description>German beer garden offering full liters of german beer and German fare (wursts, schnitzels, schweinshachsen, etc.)  to fill up on. Great outdoor seating. Good place to watch soccer. Neighborhood favorite. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.986494,38.899959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maketto</name>
+        <description>What kind I say? Neighborhood favorite. VERY hip. Sneaker/clothing boutique in front, excellent Cambodian/Taiwanese food throughout, and cafe on second floor.. Outdoor and indoor seating. Staffed by the ostensibly very cool and hip type, but surprisingly unpretentious and down-to-earth cool. I LOVE MAKETTO.</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9866749,38.9000359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dangerously Delicious Pies</name>
+        <description>Both sweet and savory pies. Coffee and beer/wine available. Open late. Now includes bar and music venue (mostly local punk/hardcore/metal) upstairs. Complete with lovely outdoor seating. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9869053,38.8999767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Granville Moore's]]></name>
+        <description>Charming Belgian spot with many Belgian beers. Mussels and frites! Good date spot as its nice but not too nice. Character not caricature. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9889178,38.9004066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toki Underground</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9890312,38.900388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Queen Vic</name>
+        <description>English style pub. Liverpool supporter bar. Decent spot to watch soccer with solid brunch options, also. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9898523,38.9003881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sticky Rice</name>
+        <description>Generic pan asian food but open late. More bar than restaurant. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9893064,38.9003929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Copycat Co.</name>
+        <description><![CDATA[Chinese street food snacks with excellent cocktails available upstairs. Food pickings are slim (dumplings, baos, skewers) but really good. Dumplings/Skewers > Baos IMO. Food available late (until two) on the weekend. Small amount of outdoor seating out back, but feels like you're sitting in a concrete box. Neighborhood favorite.]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9910207,38.9003913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Big Board</name>
+        <description>Straightforward beer bar with burgers as the food speciality. Solid, if nothing special.</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9997655,38.9000647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sidamo Coffee & Tea]]></name>
+        <description>Locally owned Ethiopian coffee shop run by the most friendly folks. Sidamo offers traditional tea and coffee ceremonies at times, which is neat!</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9999024,38.9000228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ethiopic Restaurant</name>
+        <description>Fancy-ish Ethiopian food. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0003909,38.8999909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jimmy Valentine's Lonely Hearts Club]]></name>
+        <description><![CDATA[Neighborhood fave considering I live a hop, skip, and a jump away. Divey, dancey bar that runs very late. Hidden gem if you like your gems scuffed, scratched, and smacked into something low-key, local, and fun. VERY cutty back stairwell to smoke cigarettes if you're into that sort of thing. ]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.980549,38.9038899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mother Rucker's Subs]]></name>
+        <description><![CDATA[Local, family run sub joint. Subs is aight, but they're cheap and folks are really friendly. ]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9806205,38.9038865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hill Prince</name>
+        <description><![CDATA[Neighborhood favorite. Refined interior and lovely, quaint exterior. Both classic and newish cocktails that are largely affordable. ALSO, music on weekends is early oughts -> contemporary rap/hip-hop/r&b, which I love, so heck yeah!]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9869702,38.899889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Haymaker Bar</name>
+        <description>Just a good neighborhood bar with cheapish drinks and eats (kitchen open until midnight on weekdays!!!). TVs for sports. Awesome and friendly staff. Neighborhood favorite. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9920617,38.8999689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CAVA</name>
+        <description>Fast-casual mediterranean - cheapish</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9986415,38.9000201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cusbah</name>
+        <description>Solid Indian food, albeit with a small menu, with  pleasant patio on the corner. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9904657,38.9003754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toki Underground</name>
+        <description>Ramen. Noodles are alright.  </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9890364,38.9003902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chick-fil-A</name>
+        <description>AND YOU KNOW THIS.</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9851262,38.8991067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[America's Best Wings]]></name>
+        <description>Neighborhood favorite. GREAT chicken wings and potato wedges. Local DC carry out style. NOT open late night. NO delivery. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9807296,38.9003687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bullfrog Bagels on H Street</name>
+        <description>Good bagels make for a quick, yet delicious weekend breakfast option. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9867528,38.9000378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DC Diner</name>
+        <description>Late night food option. Nothing special but greasy offerings that may or may not hit the spot. Cheapish.</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9884969,38.900387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Pug</name>
+        <description><![CDATA[Neighborhood favorite. Dive bar. Small so not good for any sizable crowd. Janky old TVs, so it's in no way ideal to watch sports, but good to chat up some strangers from within and without the neighborhood. Patrons can order food from the upstairs ramen joint Toki Underground. ]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9890313,38.900388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toki Underground</name>
+        <description>Located upstairs. Door is to the left of The Pug. Solid, affordable ramen noodles.</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9890374,38.9004044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Choong Man Chicken And Seafood</name>
+        <description><![CDATA[When they first moved into the neighborhood, their grand opening banner infamously stated, "Now Crab Serving". Good Korean style chicken wings (extra crispy with sweet/spicy sauce). ]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9904744,38.9000125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[&pizza]]></name>
+        <description><![CDATA[DC's most successful fast casual joint. People really love &pizza. It's just alright in my view, but it is open late and you know what you're getting into; and there's something to be said about that. ]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9907811,38.900378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Little Miss Whiskey's Golden Dollar]]></name>
+        <description><![CDATA[NOLA feeling dive (kitschy, gloomy vibe inside & dingy, black wrought-iron garden vibe outside). Amazing selection of bottled beer available, but I prefer their boozy slushy (BRAIN FREEZE). Upstairs dance floor that gets crowded but very bro-y on the weekend. Same owner as Jimmie Valentine's on Bladensburg. Neighborhood favorite.]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.991211,38.900437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Duffy's Irish Pub]]></name>
+        <description>Simple sports bar suitable for watching games. Wide selection of Irish whiskeys and really good chicken wings available.</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.992005,38.9004141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dio Wine Bar</name>
+        <description>Cute wine bar specializing in natural wines. Neighborhood favorite. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9934398,38.9004189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chupacabra Latin Kitchen & Taqueria]]></name>
+        <description>Warm weather seasonal taqueria with seating outdoors on the street. Pleasant for quick snack and some people watching. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9939398,38.9004319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Solid State Books</name>
+        <description><![CDATA[I don't often include places like this on my list, but this is my neighborhood book store and I'm a book worm, so yeah, I'm marking it down. Great staff with wide selection of book events/discussions. They do sell beer and wine, so it's on the map baby. ]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9967815,38.9003466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmbird</name>
+        <description>Local fast-casual joint specializing in roast chicken. Fresh and locally sourced ingredients hits all of the buzzwords and hits all the tastebuds. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9975808,38.9000318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fare Well</name>
+        <description>All vegan bakery for treats and diner for more treats. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0001467,38.900353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Pursuit Wine Bar & Kitchen]]></name>
+        <description>New location for wine bar previously on 1400s block of H street NE. Good wine selection, obviously. I have yet to try their eats, though. </description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9917215,38.9000421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Ivy City</name>
+      <Placemark>
+        <name>One Eight Distilling</name>
+        <description>Local distillery. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -76.988882,38.913086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Columbia Distillers/Green Hat Gin</name>
+        <description>Local distillery specializing in gin, amongst other spirits. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -76.984055,38.9135675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Atlas Brew Works</name>
+        <description>Biggest (?) DC brewery I believe with distribution all over the DMV. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -76.981435,38.914857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ivy City Smokehouse Tavern & Market]]></name>
+        <description>Smoked fish and other tasty morsels. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -76.985552,38.9146349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Chief</name>
+        <description>Kinda popping joint in the up and coming Ivy City district. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9850585,38.914769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Republic Restoratives Distillery and Craft Cocktail Bar</name>
+        <description>Local distillery. Ivy City is hot spot for distilleries and breweries right now and this is one of them. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9852721,38.9153147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dock FC</name>
+        <description>Soccer bar with trivia some nights. Kinda quiet. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9843799,38.9146937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panda Gourmet</name>
+        <description>EXCELLENT Sichuan food located in a Days Inn. </description>
+        <styleUrl>#icon-1899-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9708049,38.9179902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>NOMA/Union Market</name>
+      <Placemark>
+        <name>Union Market</name>
+        <description>Food market. Indoor and outdoor seating makes for good people watching. Assortment of different bites, drinks, and trinkets. Free WIFI. Neighborhood favorite.</description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9979623,38.9086559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Masseria</name>
+        <description>Classy chic eatery. FINE dining. </description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9992408,38.9095682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Indigo</name>
+        <description>Easy-going Indian with outside seating. </description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0022302,38.9022603,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A. Litteri</name>
+        <description>Italian market and deli. Good sandwiches and Italian goods: pastas, olive oils, meats, wines (legitimately one of the best selections of Italian wine outside of the continent).  </description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9983797,38.9070348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Anselm</name>
+        <description><![CDATA[American style steakhouse. I absolutely love the decor here as it's an early 20th century American feel and apropos of its DC location, complete with political paraphernalia. Food is excellent; and, my god, they serve the BEST biscuits I've ever had. ]]></description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9990806,38.9077889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shouk</name>
+        <description>Mediterranean fast-casual joint with a completely vegan menu. </description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0003905,38.9077919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Buffalo & Bergen]]></name>
+        <description>Solid bagel sandwiches. </description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9975504,38.9086546,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peregrine Espresso</name>
+        <description>Peregrine is my favorite of the many local coffee shops in DC. $3 flat for an iced coffee is also about as cheap as you can find. Neighborhood favorite.</description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9972319,38.9084147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bloomingdale - Eckington</name>
+      <Placemark>
+        <name><![CDATA[The Pub & The People]]></name>
+        <description>Bloomingdale brew pup.</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.009308,38.912363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Hen</name>
+        <description><![CDATA[VERY good food but a bit pricey. The owners literally turned away Trump's lying and duplicitous Press Secretary Sarah Sanders, so they got that going for them, too. ]]></description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0124088,38.9150119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boundary Stone</name>
+        <description>Dark, busy bar. </description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0126794,38.9152449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Bear Cafe</name>
+        <description>Cute cafe. Beautiful outdoor seating in plant covered latticework. </description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.012428,38.912753,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[ANXO Cidery & Pintxos Bar]]></name>
+        <description>Tapas style eats with a cidery attached. </description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0154013,38.913325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Showtime Lounge</name>
+        <description><![CDATA[Simple hipster "dive". Juke box. Beer/whiskey shot combos. Live music some nights. Small but mighty. Neighborhood favorite. ]]></description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.012756,38.915808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Shaw/Mt. Vernon</name>
+      <Placemark>
+        <name>Compass Coffee</name>
+        <description>Local coffee joint. </description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0227727,38.9162511,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>All Souls Bar</name>
+        <description><![CDATA[Classy & classic cocktails. Solid outdoor seating. Neighborhood favorite.]]></description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0227423,38.9157462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Right Proper Brewing Company Shaw Brewpub and Kitchen</name>
+        <description>Local brew pup serving their own stuff. Great fried chicken sandwich. </description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0213678,38.915437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dacha Beer Garden</name>
+        <description><![CDATA[Open beer garden with half liters, liters, and even boots! VERY popular and thus often at capacity. Very DC-bro-y, also. Great for a weekday or early weekend stop, though. You won't miss the lovely Elizabeth Taylor mural. ]]></description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0222416,38.9112752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ivy and Coney</name>
+        <description>Low key Chicago/Detroit spot serving cheapish beers and bar food. Good for sports but is very much a Chicago/Detroit fans haunt.</description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0215835,38.9106548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Compass Coffee</name>
+        <description>Solid coffee. </description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0216064,38.9105861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TAKODA</name>
+        <description><![CDATA[Nice rooftop. Typical U street vibe (young professional, "let's go out" kinda thing). ]]></description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0225968,38.9167637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Solly's]]></name>
+        <styleUrl>#icon-1899-4E342E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0273164,38.9168523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flash</name>
+        <description>Underground dance music venue (house, techno, etc.) Awesome sound system on the club level that attracts top tier domestic and international DJ talent. Rooftop bar also features a dance floor and the open-air provides a pleasant contrast to the second floor club setting. Neighborhood favorite. </description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.021369,38.916281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Dabney</name>
+        <description>Popular but delicious dining. Pricey but worth it. </description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0246047,38.9062837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espita Mezcaleria</name>
+        <description><![CDATA[One of Jose Andres' many restaurants. Per the name, many mezcals and tequilas available. Food is aight. ]]></description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0242111,38.9070136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calico</name>
+        <description>Great place for drinks with outdoor seating (outdoors closes at midnight, though, gotta respect the neighbors and what not). Serves southern food.</description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0251731,38.9062375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>All-Purpose Shaw</name>
+        <description>Original location of this DC pizzeria, serving small and tasty pies and what, to me, feels like  New Jersey or outer NYC boroughs Italian food. </description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0242749,38.9069257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Columbia Heights/Georgia Ave/Petworth</name>
+      <Placemark>
+        <name>The Wonderland Ballroom</name>
+        <description><![CDATA[Good seating outdoors. Dive-y bar. Very popular and grimy dance floor upstairs if you're just trying to make out with some stranger.]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0279377,38.9299362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Chucho - Cocina Superior</name>
+        <description>Taqueria with some good open-air seating on the second floor. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0278709,38.931087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thip Khao Restaurant</name>
+        <styleUrl>#icon-1899-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0329623,38.9329046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Derby</name>
+        <description>Great dive-y bar holding lots of community-oriented events. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0330624,38.9377323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pupuseria Susana</name>
+        <description>DC does pupusas well. No surprise considering the enormous Salvadoran population. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0325015,38.9377434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pupuceria Maria</name>
+        <description>More pupusas!</description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0324447,38.9391168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Midlands Beer Garden</name>
+        <description>Outdoor and Indoor beer garden with strong selection of local/regional beers. Can get very crowded on weekends during certain sporting events. Also, a fair share of stroller drinkers and dog drinkers. Truly egalitarian. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0233233,38.9318883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Looking Glass Lounge</name>
+        <description>Solid dive bar. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0243245,38.9350303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lyman's Tavern]]></name>
+        <description>Also, great dive-y bar with pinball machines. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0330163,38.9377773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Petworth Citizen & Reading Room]]></name>
+        <description>Quiet (hence, the reading) bar with good cocktails. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0244991,38.9420597,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Call Your Mother</name>
+        <description>Crazy popular, but very good local bagel place. Avoid on weekends due to long lines. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.023319,38.9313468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colony Club</name>
+        <description>Cute and calm cafe serving alcohol, also. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0235784,38.9295799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sonny’s Pizza</name>
+        <description>Pizza is very meh IMO, but they have a lovely outdoor bar and indoor lounge in the back. Good for drinks. Not so good for food. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.02373,38.9296409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bad Saint</name>
+        <description><![CDATA[Unbelievable Filipino food. I don't think they take reservations, so you gotta line up on the street to get a table. Meh, but worth it. ]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0280506,38.9302671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taqueria Habanero</name>
+        <description>Rather solid tacos in what is kind of a sorry city for tacos. </description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            -77.032948,38.9375458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reliable Tavern</name>
+        <styleUrl>#icon-1899-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0240878,38.9360591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Raven Grill</name>
+        <styleUrl>#icon-1899-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0373923,38.9293871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Adams Morgan</name>
+      <Placemark>
+        <name><![CDATA[Super Tacos & Bakery]]></name>
+        <description>DECENT tacos and lowkey decent burrito in a city that has NO good burritos. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.040953,38.9236043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tryst</name>
+        <description>Cafe lounge. Simple. Neighborhood favorite. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.042091,38.921977,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Julia's Empanadas]]></name>
+        <description>Cheap, quick, easy to eat sweet and savory empanadas. Open late. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0426298,38.9219957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roofers Union</name>
+        <description>Nice roof. Typical Adams Morgan vibe (collegiate). </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0426306,38.9218576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>the DINER</name>
+        <description>24 hours. As titled as is. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.042049,38.921846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amsterdam Falafelshop</name>
+        <description>Falafel, double fried frites. Run by stoners really. Open late. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0419553,38.9211625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jyoti Indian Cuisine</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0418833,38.9213987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Dan's Cafe]]></name>
+        <description>Dive classic. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0415394,38.9201052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Tamarindo</name>
+        <description>SOLID pupuseria. Open late.</description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0412931,38.917187,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jack Rose Dining Saloon</name>
+        <description>OUTSTANDING whiskey library. Open air rooftop. ALLOWS smoking. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0412918,38.9173956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blaguard</name>
+        <description>Simple dive. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.041383,38.917293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Duccini's Pizza]]></name>
+        <description>My favorite jumbo slice spot in DC. 5$ for a massive slice. Open late</description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0412075,38.9168606,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Federalist Pig</name>
+        <description><![CDATA[Some people mistake DC for the south. To be clear it ain't. This is damn good BBQ and likely one of the few places that does it right. ]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.038541,38.9250461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Madam's Organ]]></name>
+        <description><![CDATA[Quite the troublesome bar. Several floors. Live music, DJs, debauchery, etc. Legendary spot considering its longevity. DO KNOW what you're getting in to here. ; ) ]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0421372,38.922032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Donburi</name>
+        <description>Intimate ramen and bowl bar. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0425192,38.9216528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jyoti Indian Cuisine</name>
+        <description>GOOD Indian spot. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0418833,38.9213987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Black Squirrel</name>
+        <description>Dive. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0419059,38.9212281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BUL</name>
+        <description>Good Korean spot without going all the way to Annandale for Korean bbq and other authentic spots. </description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0419344,38.9213217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>U Street - 14th Street</name>
+      <Placemark>
+        <name>Restaurant Judy</name>
+        <description>Local holdover serving Salvadoran food. Something real and established in an area of new. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0321494,38.9196682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sakerum</name>
+        <description>Decent sushi spot. Side note: sushi is tough for me. I love it but find most places meh or simply overpriced for what it is. Sakerum is aight, though. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0321796,38.9194325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fast Gourmet</name>
+        <description>Attached to the gas station, this places makes really good sandwiches and other quick eating fare. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.032461,38.918995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Busboys and Poets</name>
+        <description><![CDATA[Name is a bit of a (shameless IMO) play on DC's famous book store chain Politics & Prose. With that being said, good spot for reading or working during the day. Hosts good community events, also. ]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0316146,38.9179232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Wydown Coffee Bar</name>
+        <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.032301,38.91657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Codmother</name>
+        <description><![CDATA[I've literally seen a rat run across the floor. Very fratty on the weekends (kinda U street style). In fact, I would recommend you ignore it on the weekends as there will be a queue out front to get in filled with the young and the reckless. On a weeknight, though, this is a very good "dive" bar. ]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0309954,38.9168075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amsterdam Falafelshop</name>
+        <description><![CDATA[Dutch style falafel shop and double fried french fries, complete with mayo for a topping if you're feeling continental. But, for real, their fries are delicious and they're open late. Neighborhood favorite.]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0321856,38.9151398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Centro D.F.</name>
+        <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0315403,38.9147011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>garden district</name>
+        <description>Strictly outdoor beer garden serving some German beers and others. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0315444,38.9142441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ben's Chili Bowl]]></name>
+        <description><![CDATA[CLASSIC. With that being said, you should really only eat here if you're drunk. ]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0287818,38.9172237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[&pizza]]></name>
+        <description><![CDATA[Fast-casual pizza. Meh as far as i'm concerned but open late so it suits a purpose. ]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0292588,38.9168664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dukem Ethiopian Restaurant</name>
+        <description>Late night Ethiopian. Say no more. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0277347,38.9168276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vinoteca</name>
+        <description>Wine bar and restaurant with some seating on the sidewalk facing 11th st. Included for being a bit different for the U street scene. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0273503,38.9167993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Solly's]]></name>
+        <description><![CDATA[SOLID "dive" bar serving barbecue out the back and sidewalk seating out front. Simple is better. Neighborhood favorite. ]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0273164,38.9168523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Velvet Lounge</name>
+        <description>Grimy, grindy place. Good for few things: getting grimy and grinding. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0247046,38.9171963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DC9 Nightclub</name>
+        <description>Live music from local and smaller touring bands. Dance floor. Regular bar with a dive-y feel. Awesome roof top bar, also. Neighborhood favorite.</description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.024142,38.916708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Satellite Room</name>
+        <description>Right behind 9:30 club, hence its appeal. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0236564,38.9180866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>American Ice Company</name>
+        <description><![CDATA[Intimate but cool bar. Not good for big groups, but great bar, nonetheless; because, let's face it, going out in big groups kinda sucks. ]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0252854,38.9183712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marvin</name>
+        <description><![CDATA[Very popular spot serving food and drinks. Frequented by DC's many black residents, which means you know it's popping. ]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.03165,38.917314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Gibson</name>
+        <description>Speakeasy style bar. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0316505,38.9173702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Rey</name>
+        <description>Shipping container bar serving tacos e cervezas. Neighborhood favorite</description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0248255,38.9171423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9:30</name>
+        <description><![CDATA[Legendary DC music venue plays host to artists and bands from any and all genres. Look out for NPR's Bob Boilen wearing goofy, old-man hats. ]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.023692,38.9179969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Service Bar DC</name>
+        <description>Solid cocktails at this intimate bar with rather tasty treats to soak it all up (including fried chicken). </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.02506,38.916828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Provision No. 14</name>
+        <description>Rather basic, if overpriced eats, and drinks with a decent sidewalk seating. Good date spot. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.03232,38.918263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Franklin Hall</name>
+        <description><![CDATA[Beer hall with carnival or ballpark type eats (e.g. Frito pies). Lots of space, so good for a larger crew. They also have game available like really big connect four or really big UNO cars. Related: I really don't know why these games are all so big, but it provides novelty, I suppose. ]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.031249,38.920043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maydan</name>
+        <description><![CDATA[One of DC's hotter new restaurants. Food cooked on a large open fire style set up makes for good ambience. Syrian/Georgian/Iranian inspiration. REALLY good. Neighborhood favorite. ]]></description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0309984,38.9198048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>sweetgreen</name>
+        <description>One of the more popular fast-casuals. Downtown, during the lunch rush, these joints will be a zoo with all sorts of DC animals grazing about. They do make pretty good and big salads for a reasonable price, so the desire is understandable. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0312564,38.9193652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colada Shop</name>
+        <description>Serving empanadas and frozen booze drinks. Mmmmmm. Rooftop, also. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0323923,38.9157943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe Saint-Ex</name>
+        <description>Street level and basement bar is decent spot to stop in for a drink. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0317225,38.9154312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar Pilar</name>
+        <description>Solid bar that avoids some of the politi-bros. I really like the design of the actual bar, also. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0316764,38.9151237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Cat</name>
+        <description>Famous local music venue that features all sorts of bands but you do see a lot of punk, hardcore, metal, indie, etc. First floor bar is a good dive that attracts some of the more (for lack of a better word) artsy/hipster types. Neighborhood favorite. </description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0317283,38.9145825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Logan's Circle]]></name>
+      <Placemark>
+        <name>Peregrine Espresso</name>
+        <description>Best local coffee chain IMO. I frequent many of the locations throughout DC (Union Market, Eastern Market, 14th st, etc.). </description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0321856,38.9132764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barcelona Wine Bar 14th Street</name>
+        <description><![CDATA[Tapas and wines. Lovely outdoor seating. Popular, so it's sometimes a bit crowded. Good date spot. ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0324076,38.9120446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Diplomate</name>
+        <description>French spot with an amazing aesthetic. Very popular so get a reservation. Let it be known: they have an excellent brunch burger. </description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -77.031739,38.9113445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Etto</name>
+        <description>Delicious Italian spot. </description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -77.031618,38.910967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Vegas Lounge</name>
+        <description><![CDATA[Juke type joint with live music (blues, soul, r&b, etc.)]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0326027,38.909787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ChurchKey</name>
+        <description><![CDATA[Decent bar. Worth a stop if you're passing by and in need of a libation. ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0313625,38.9084906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B Too</name>
+        <description><![CDATA[Belgian-influenced restaurant is good for brunch. I ate here after running a half-marathon and consumed 3 whole entrees. 'Twas marvelous. A waiter spilled coffee (warm-not-hot) on my cashmere sweater. That sucks, but they gave me a staff shirt to switch into, an extra side of bacon, banana/nutella crepe, and then covered the dry-cleaning bill. Fair shake IMO. No harm no foul!]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0323092,38.9080825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baan Thai</name>
+        <description><![CDATA[Good thai food if you've got a hankering for Thai.]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0321859,38.9081521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Hong Pao Restaurant and Bar</name>
+        <description>Solid dim sum in a city largely devoid of good options for Chinese food. </description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -77.031687,38.909388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Capitol Hill - Eastern Market</name>
+      <Placemark>
+        <name>Le Bon Café</name>
+        <description>Simple cafe. </description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -77.00327,38.887038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burrito Brothers</name>
+        <description>DECENT facsimile to a California style burrito. I repeat DECENT, nothing more!</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0031667,38.8871942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>sweetgreen</name>
+        <description><![CDATA[Fast-casual salad spot. Packed around lunch hour, but big portions and fresh ingredients make for great "fast food" option. ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0027339,38.8870045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capitol Lounge</name>
+        <description>Classic Capitol Hill bar. No frills. Amazing collection of political memorabilia on the walls. </description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0024884,38.8869095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Good Stuff Eatery</name>
+        <description>Local burgers, fries, and shakes. Burgers run a bit messy, but tasty. </description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0017894,38.8866091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>We the Pizza</name>
+        <description><![CDATA[Local pizza joint. It's aight. ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0017192,38.8866041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peregrine Espresso</name>
+        <description>Eastern Market favorite. Cafe. </description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9964069,38.8851263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medium Rare</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9953338,38.8822316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Trusty's]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9844214,38.880144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wisdom: Cocktail Parlour</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9842275,38.8800813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Pete's Diner]]></name>
+        <description>Classic Capitol Hill diner. Cash only. </description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -77.003285,38.88699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tune Inn</name>
+        <description>Dive. </description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0011097,38.8863747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bourbon Coffee</name>
+        <description>GOOD coffee. </description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9976488,38.8849802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
