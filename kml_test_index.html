@@ -6,44 +6,59 @@
     <title>charles' choices kml layering</title>
 
     <style>
-      #google-map {
-        height: 100%;
-      }
       html, body {
-        height: 100%;
-        margin: 0;
+        height: 370px;
         padding: 0;
+        margin: 0;
+        }
+      #map {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      float: left;
+      border: thin solid #333;
+      }
+      #capture {
+      height: 360px;
+      width: 480px;
+      overflow: hidden;
+      float: left;
+      background-color: #ECECFB;
+      border: thin solid #333;
+      border-left: none;
       }
     </style>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdoj7GwknJjrIT0oRIxKHyve6mtQRqbhY">
-    </script>
   </head>
-
   <body>
-
-    <div id="google-map" class="google-map"></div>
-    
+    <div id="map"></div>
+    <div id="capture"></div>
     <script>
-      function initialize() {
-        var mapOptions = {
+      var map;
+      var src = 'https://raw.githubusercontent.com/mapbox/togeojson/master/togeojson.js';
+      // var src = 'https://drive.google.com/file/d/1bpxxMCAHwpV-Ze4ilED-Nrt-vtwYkuQ8/choices.kml';
+      console.log(src);
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
           center: new google.maps.LatLng(38.904, -77.016),
           zoom: 13,
-          mapTypeId: google.maps.MapTypeId.SATELLITE,
-          // scrollwheel: false
-        }
-
-        var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-
-        var ctaLayer = new google.maps.KmlLayer({
-          url: '/choices.kml'
+          mapTypeId: 'terrain'
         });
 
-        ctaLayer.setMap(map);
+        var kmlLayer = new google.maps.KmlLayer(src, {
+          suppressInfoWindows: true,
+          preserveViewport: false,
+          map: map
+        });
+        kmlLayer.addListener('click', function(event) {
+          var content = event.featureData.infoWindowHtml;
+          var testimonial = document.getElementById('capture');
+          testimonial.innerHTML = content;
+        });
       }
-
-      google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdoj7GwknJjrIT0oRIxKHyve6mtQRqbhY&callback=initMap">
+    </script>
   </body>
 </html>
