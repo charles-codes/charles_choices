@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>charles' choices kml layering</title>
+
+    <style>
+      html, body {
+        height: 90%;
+        padding: 0;
+        margin: 25px;
+        }
+
+      #map {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      float: left;
+      border: thin solid #333;
+      }
+
+      #capture {
+      height: 240px;
+      width: 480px;
+      overflow: hidden;
+      float: left;
+      background-color: #ECECFB;
+      border: thin solid #333;
+      border-left: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="map"></div>
+
+    <!-- <div id="capture"></div> -->
+
+    <script>
+      var map;
+      // var src = 'https://sites.google.com/site/cmtspublickmlfiles/geojason/h_street.geojson';
+      // console.log(src);
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: new google.maps.LatLng(38.904, -77.016),
+          zoom: 15,
+        });
+
+        // load geojson
+        map.data.loadGeoJson(
+          'https://sites.google.com/site/cmtspublickmlfiles/geojason/H_Street.geojson'
+        );
+      }
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdoj7GwknJjrIT0oRIxKHyve6mtQRqbhY&callback=initMap">
+    </script>
+  </body>
+</html>
