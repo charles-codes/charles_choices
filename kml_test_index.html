@@ -12,6 +12,10 @@
         margin: 25px;
         }
 
+        #header {
+          margin: 10px;
+        }
+
       #map {
       height: 100%;
       width: 100%;
@@ -43,6 +47,10 @@
   </head>
 
   <body>
+    <div id="header">
+      <header>Charles' Choices: Explore the map and find some cool shit!</header>
+    </div>
+
     <div id="style-selector-control" class="map-control">
       <input type="radio" name="show-hide" id="hide-poi"
           class="selector-control">
@@ -62,7 +70,11 @@
         map = new google.maps.Map(document.getElementById('map'), {
           center: new google.maps.LatLng(38.904, -77.016),
           zoom: 15,
-          mapTypeIds: 'terrain',
+          // mapTypeIds: 'terrain',
+          mapTypeControlOptions: {
+            mapTypeIds: ['terrain',
+                    'styled_map']
+          }
         });
 
         console.log(map);
