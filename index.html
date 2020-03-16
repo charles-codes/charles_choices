@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Styled Map Selection</title>
+    <title> | Charles' Choices | </title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <style>
@@ -37,7 +37,9 @@
       }
     </style>
   </head>
+
   <body>
+
     <div id="style-selector-control"  class="map-control">
       <select id="style-selector" class="selector-control">
         <option value="default">Default</option>
@@ -48,8 +50,12 @@
       </select>
     </div>
     <div id="map"></div>
+
     <script>
+
       var map;
+      var src = 'https://sites.google.com/site/cmtspublickmlfiles/kml/choices.kmz';
+
       function initMap() {
         // Create the map with no initial style specified.
         // It therefore has default styling.
@@ -57,6 +63,17 @@
           center: {lat: 38.904, lng: -77.016},
           zoom: 15,
           mapTypeControl: false
+        });
+
+        // Custom kmlLayer via imported .kmz file
+        var kmlLayer = new google.maps.KmlLayer(src, {
+          map: map
+        });
+        console.log(kmlLayer);
+
+        // On click listener that will pop up info window
+        kmlLayer.addListener('click', function(event) {
+          var content = event.featureData.infoWindowHtml;
         });
 
         // Add a style-selector control to the map.

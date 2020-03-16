@@ -90,11 +90,11 @@
           var content = event.featureData.infoWindowHtml;
         });
 
-        // Add controls to the map, allowing users to hide/show features.
+        // Add controls to the map, allowing users to hide/show features
         var styleControl = document.getElementById('style-selector-control');
         map.controls[google.maps.ControlPosition.TOP_LEFT].push(styleControl);
 
-        // Apply new JSON when the user chooses to hide/show features.
+        // Apply new JSON when the user chooses to hide/show features
         // Hide
         document.getElementById('hide-poi').addEventListener('click', function() {
           map.setOptions({styles: styles['hide']});
