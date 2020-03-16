@@ -20,7 +20,7 @@
       border: thin solid #333;
       }
 
-      #capture {
+      /* #capture {
       height: 240px;
       width: 480px;
       overflow: hidden;
@@ -28,19 +28,47 @@
       background-color: #ECECFB;
       border: thin solid #333;
       border-left: none;
+      } */
+
+      .map-control {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+        font-family: 'Roboto','sans-serif';
+        margin: 10px;
+        padding-right: 5px;
+        /* Hide the control initially, to prevent it from appearing
+           before the map loads. */
+        display: none;
+      }
+      /* Display the control once it is inside the map. */
+      #map .map-control { display: block; }
+
+      .selector-control {
+        font-size: 14px;
+        line-height: 30px;
+        vertical-align: baseline;
       }
     </style>
   </head>
 
   <body>
+    <div id="style-selector-control" class="map-control">
+      <input type="radio" name="show-hide" id="hide-poi"
+          class="selector-control">
+      <label for="hide-poi">Hide</label>
+      <input type="radio" name="show-hide" id="show-poi"
+          class="selector-control" checked="checked">
+      <label for="show-poi">Show</label>
+    </div>
+
     <div id="map"></div>
 
     <!-- <div id="capture"></div> -->
 
     <script>
       var map;
-      var src = 'https://sites.google.com/site/cmtspublickmlfiles/kml/choices.kmz';
-      console.log(src);
+      var src = 'https://sites.google.com/site/cmtspublickmlfiles/kml/choices_2.kmz';
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -48,6 +76,8 @@
           zoom: 15,
           mapTypeId: 'terrain'
         });
+
+        console.log(map);
 
         var kmlLayer = new google.maps.KmlLayer(src, {
           map: map
@@ -59,6 +89,54 @@
           // var testimonial = document.getElementById('capture');
           // testimonial.innerHTML = content;
         });
+
+        // Add controls to the map, allowing users to hide/show features.
+        var styleControl = document.getElementById('style-selector-control');
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(styleControl);
+
+        // Apply new JSON when the user chooses to hide/show features.
+        document.getElementById('hide-poi').addEventListener('click', function() {
+          map.setOptions({styles: styles['hide']});
+        });
+
+        document.getElementById('show-poi').addEventListener('click', function() {
+          map.setOptions({styles: styles['default']});
+        });
+
+        var styles = {
+        default: null,
+        hide: [
+          {
+            featureType: 'poi.attraction',
+            stylers: [{visibility: 'off'}]
+          },
+          {
+            featureType: 'poi.government',
+            stylers: [{visibility: 'off'}]
+          },
+          {
+            featureType: 'poi.medical',
+            stylers: [{visibility: 'off'}]
+          },
+          {
+            featureType: 'poi.place_of_worship',
+            stylers: [{visibility: 'off'}]
+          },
+          {
+            featureType: 'poi.school',
+            stylers: [{visibility: 'off'}]
+          },
+          {
+            featureType: 'poi.sports_complex',
+            stylers: [{visibility: 'off'}]
+          },
+          {
+            featureType: 'transit',
+            elementType: 'labels.icon',
+            stylers: [{visibility: 'off'}]
+          }
+        ]
+      };
       }
     </script>
 
