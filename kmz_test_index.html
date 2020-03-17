@@ -22,7 +22,7 @@
         color: red;
         transform: scale(2);
       } */
-      .buttons:{
+      .buttons {
         color: green;
       }
 
@@ -38,19 +38,24 @@
 
   <body>
 
-    <div class="hoods">
-      <input id="hSt" class="buttons" type="button" onCLick="click" value="H St Corridor - Trinidad">
-      <input id="adMo" class="buttons" type="button" onCLick="click" value="Adams Morgan">
-      <input id="bloomingdale" class="buttons" type="button" onCLick="click" value="Bloomingdale">
-      <input id="colHei" class="buttons" type="button" onCLick="click" value="Columbia Heights - Georgia Ave - Petworth">
-      <input id="capHill" class="buttons" type="button" onCLick="click" value="Capitol Hill - Eastern Market - Barracks Row">
-      <input id="ivyCity" class="buttons" type="button" onCLick="click" value="Ivy City - Langdon Park - Brookland">
-      <input id="logans" class="buttons" type="button" onCLick="click" value="Logan's Circle - (South) 14th St">
-      <input id="shaw" class="buttons" type="button" onCLick="click" value="LeDroit Park - Shaw - Mt Vernon Sq">
-      <input id="uSt" class="buttons" type="button" onCLick="click" value="U Street - (North) 14th St">
-      <input id="union" class="buttons" type="button" onCLick="click" value="NOMA - Union Market">
+    <div class="dropdown">
+      <button class="dropbtn">Neighborhoods</button>
+        <div class="dropdown-content">
+          <input id="hSt" class="buttons" type="button" onCLick="click" value="H St Corridor - Trinidad">
 
-      <input id="clear" class="buttons" type="button" onCLick="click" value="CLEAR">
+          <input id="hStHide" class="buttons" type="button" onCLick="click" value="H St HIDE">
+
+          <input id="adMo" class="buttons" type="button" onCLick="click" value="Adams Morgan">
+          <input id="bloomingdale" class="buttons" type="button" onCLick="click" value="Bloomingdale">
+          <input id="colHei" class="buttons" type="button" onCLick="click" value="Columbia Heights - Georgia Ave - Petworth">
+          <input id="capHill" class="buttons" type="button" onCLick="click" value="Capitol Hill - Eastern Market - Barracks Row">
+          <input id="ivyCity" class="buttons" type="button" onCLick="click" value="Ivy City - Langdon Park - Brookland">
+          <input id="logans" class="buttons" type="button" onCLick="click" value="Logan's Circle - (South) 14th St">
+          <input id="shaw" class="buttons" type="button" onCLick="click" value="LeDroit Park - Shaw - Mt Vernon Sq">
+          <input id="uSt" class="buttons" type="button" onCLick="click" value="U Street - (North) 14th St">
+          <input id="union" class="buttons" type="button" onCLick="click" value="NOMA - Union Market">
+          <input id="clear" class="buttons" type="button" onCLick="click" value="CLEAR">
+        </div>
     </div>
     
     <div id="map"></div>
