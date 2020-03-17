@@ -12,6 +12,20 @@
         margin: 25px;
         }
 
+      .buttons {
+        font-size: 1rem;
+        margin: .6rem;
+        float: left;
+      }
+
+      /* .buttons:hover {
+        color: red;
+        transform: scale(2);
+      } */
+      .buttons:{
+        color: green;
+      }
+
       #map {
       height: 100%;
       width: 100%;
@@ -25,18 +39,18 @@
   <body>
 
     <div class="hoods">
-      <input id ="hSt" type="button" onCLick="click" value="H St Corridor - Trinidad">
-      <input id ="adMo" type="button" onCLick="click" value="Adams Morgan">
-      <input id ="bloomingdale" type="button" onCLick="click" value="Bloomingdale">
-      <input id ="colHei" type="button" onCLick="click" value="Columbia Heights - Georgia Ave - Petworth">
-      <input id ="capHill" type="button" onCLick="click" value="Capitol Hill - Eastern Market - Barracks Row">
-      <input id ="ivyCity" type="button" onCLick="click" value="Ivy City - Langdon Park - Brookland">
-      <input id ="logans" type="button" onCLick="click" value="Logan's Circle - (South) 14th St">
-      <input id ="shaw" type="button" onCLick="click" value="LeDroit Park - Shaw - Mt Vernon Sq">
-      <input id ="uSt" type="button" onCLick="click" value="U Street - (North) 14th St">
-      <input id ="union" type="button" onCLick="click" value="NOMA - Union Market">
+      <input id="hSt" class="buttons" type="button" onCLick="click" value="H St Corridor - Trinidad">
+      <input id="adMo" class="buttons" type="button" onCLick="click" value="Adams Morgan">
+      <input id="bloomingdale" class="buttons" type="button" onCLick="click" value="Bloomingdale">
+      <input id="colHei" class="buttons" type="button" onCLick="click" value="Columbia Heights - Georgia Ave - Petworth">
+      <input id="capHill" class="buttons" type="button" onCLick="click" value="Capitol Hill - Eastern Market - Barracks Row">
+      <input id="ivyCity" class="buttons" type="button" onCLick="click" value="Ivy City - Langdon Park - Brookland">
+      <input id="logans" class="buttons" type="button" onCLick="click" value="Logan's Circle - (South) 14th St">
+      <input id="shaw" class="buttons" type="button" onCLick="click" value="LeDroit Park - Shaw - Mt Vernon Sq">
+      <input id="uSt" class="buttons" type="button" onCLick="click" value="U Street - (North) 14th St">
+      <input id="union" class="buttons" type="button" onCLick="click" value="NOMA - Union Market">
 
-      <input id ="clear" type="button" onCLick="click" value="CLEAR">
+      <input id="clear" class="buttons" type="button" onCLick="click" value="CLEAR">
     </div>
     
     <div id="map"></div>
@@ -44,6 +58,7 @@
     <script>
       var map;
 
+      // variable for holding the coordinate bounds for restricting the map display
       var DC_BOUNDS = {
         north: 38.995,
         south: 38.791,
@@ -51,7 +66,9 @@
         east: -76.909
       }
 
+      // initMap function to initialize the base map
       function initMap() {
+
         // base embedded map
         map = new google.maps.Map(document.getElementById('map'), {
           center: new google.maps.LatLng(38.904, -77.016),
@@ -68,6 +85,8 @@
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/hstreet.kmz',
             map: map
           });
+          console.log(map);
+
         });
 
         // admo kmz file shows on click
@@ -76,6 +95,7 @@
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/admo.kmz',
             map: map
           });
+
         });
 
         // bloomingdale kmz file shows on click etc. 
@@ -84,6 +104,7 @@
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/bloomingdale.kmz',
             map: map
           });
+
         });
 
         // columbia heights kmz file shows on click
@@ -92,6 +113,7 @@
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/columbiaheights.kmz',
             map: map
           });
+
         });
 
         // hill kmz file shows on click
@@ -100,6 +122,7 @@
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/hill.kmz',
             map: map
           });
+
         });
 
         // ivy city kmz file shows on click
@@ -108,6 +131,7 @@
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/ivycity.kmz',
             map: map
           });
+
         });
         
         // logan's circle kmz file shows on click
@@ -116,6 +140,7 @@
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/loganscircle.kmz',
             map: map
           });
+
         });
 
         // shaw kmz file shows on click
@@ -124,6 +149,7 @@
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/shaw.kmz',
             map: map
           });
+
         });
 
         // u kmz file shows on click
@@ -132,6 +158,7 @@
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/u.kmz',
             map: map
           });
+
         });
 
         // union market kmz file shows on click
@@ -140,12 +167,13 @@
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/unionmarket.kmz',
             map: map
           });
+
         });
 
          // clear function that calls initMap to reset blank map
         document.getElementById('clear').addEventListener('click', function() {
           initMap();
-          });
+        });
       }
     </script>
 
