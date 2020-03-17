@@ -67,10 +67,13 @@
           mapTypeControl: false
         });
 
+        console.log(map);
+
         // Custom kmlLayer via imported .kmz file
         var kmlLayer = new google.maps.KmlLayer(src, {
           map: map
         });
+
         console.log(kmlLayer);
 
         // On click listener that will pop up info window
@@ -602,7 +605,3 @@
     </script>
   </body>
 </html>
-
-
-center: {lat: 38.904, lng: -77.016},
-

@@ -35,13 +35,15 @@
       <input id ="shaw" type="button" onCLick="click" value="LeDroit Park - Shaw - Mt Vernon Sq">
       <input id ="uSt" type="button" onCLick="click" value="U Street - (North) 14th St">
       <input id ="union" type="button" onCLick="click" value="NOMA - Union Market">
+
+      <input id ="clear" type="button" onCLick="click" value="CLEAR">
     </div>
     
     <div id="map"></div>
 
     <script>
       var map;
-      var DC = {lat: 38.905, lng: -77.016};
+
       var DC_BOUNDS = {
         north: 38.995,
         south: 38.791,
@@ -52,13 +54,12 @@
       function initMap() {
         // base embedded map
         map = new google.maps.Map(document.getElementById('map'), {
-          // center: new google.maps.LatLng(38.904, -77.016),
-          center: DC,
+          center: new google.maps.LatLng(38.904, -77.016),
+          zoom: 13,
           restriction: {
             latLngBounds: DC_BOUNDS,
             strictBounds: false,
           },
-          zoom: 13,
         });
 
         // hstreet kmz file shows on click
@@ -85,6 +86,7 @@
           });
         });
 
+        // columbia heights kmz file shows on click
         document.getElementById('colHei').addEventListener('click', function() {
             var colHei = new google.maps.KmlLayer({
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/columbiaheights.kmz',
@@ -92,6 +94,7 @@
           });
         });
 
+        // hill kmz file shows on click
         document.getElementById('capHill').addEventListener('click', function() {
           var capHill = new google.maps.KmlLayer({
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/hill.kmz',
@@ -99,13 +102,15 @@
           });
         });
 
+        // ivy city kmz file shows on click
         document.getElementById('ivyCity').addEventListener('click', function() {
           var ivyCity = new google.maps.KmlLayer({
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/ivycity.kmz',
             map: map
           });
         });
-
+        
+        // logan's circle kmz file shows on click
         document.getElementById('logans').addEventListener('click', function() {
             var logansCircle = new google.maps.KmlLayer({
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/loganscircle.kmz',
@@ -113,6 +118,7 @@
           });
         });
 
+        // shaw kmz file shows on click
         document.getElementById('shaw').addEventListener('click', function() {
             var shaw = new google.maps.KmlLayer({
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/shaw.kmz',
@@ -120,6 +126,7 @@
           });
         });
 
+        // u kmz file shows on click
         document.getElementById('uSt').addEventListener('click', function() {
             var uStreet = new google.maps.KmlLayer({
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/u.kmz',
@@ -127,12 +134,18 @@
           });
         });
 
+        // union market kmz file shows on click
         document.getElementById('union').addEventListener('click', function() {
             var unionMarket = new google.maps.KmlLayer({
             url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/unionmarket.kmz',
             map: map
           });
         });
+
+         // clear function that calls initMap to reset blank map
+        document.getElementById('clear').addEventListener('click', function() {
+          initMap();
+          });
       }
     </script>
 
