@@ -19,94 +19,108 @@
       float: left;
       border: thin solid #333;
       }
-
-      /* #capture {
-      height: 240px;
-      width: 480px;
-      overflow: hidden;
-      float: left;
-      background-color: #ECECFB;
-      border: thin solid #333;
-      border-left: none;
-      } */
     </style>
   </head>
 
   <body>
 
     <div class="hoods">
-      <input id ="h_st_button" type="button" onCLick="click" value="H Street">
+      <input id ="hSt" type="button" onCLick="click" value="H St Corridor - Trinidad">
+      <input id ="adMo" type="button" onCLick="click" value="Adams Morgan">
+      <input id ="bloomingdale" type="button" onCLick="click" value="Bloomingdale">
+      <input id ="colHei" type="button" onCLick="click" value="Columbia Heights - Georgia Ave - Petworth">
+      <input id ="capHill" type="button" onCLick="click" value="Capitol Hill - Eastern Market - Barracks Row">
+      <input id ="ivyCity" type="button" onCLick="click" value="Ivy City - Langdon Park - Brookland">
+      <input id ="logans" type="button" onCLick="click" value="Logan's Circle - (South) 14th St">
+      <input id ="shaw" type="button" onCLick="click" value="LeDroit Park - Shaw - Mt Vernon Sq">
+      <input id ="uSt" type="button" onCLick="click" value="U Street - (North) 14th St">
+      <input id ="union" type="button" onCLick="click" value="NOMA - Union Market">
     </div>
 
     <div id="map"></div>
 
-    <!-- <div id="capture"></div> -->
-
     <script>
       var map;
-      // var src = 'https://sites.google.com/site/cmtspublickmlfiles/geojson/h_street.geojson';
-      // console.log(src);
 
       function initMap() {
+        // base embedded map
         map = new google.maps.Map(document.getElementById('map'), {
           center: new google.maps.LatLng(38.904, -77.016),
-          zoom: 15,
+          zoom: 13,
         });
 
-        var hStreet = new google.maps.KmlLayer({
-          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/hstreet.kmz',
-          map: map
+        // hstreet kmz file shows on click
+        document.getElementById('hSt').addEventListener('click', function() {
+            var hStreet = new google.maps.KmlLayer({
+            url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/hstreet.kmz',
+            map: map
+          });
         });
 
-        var adMo = new google.maps.KmlLayer({
-          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/admo.kmz',
-          map: map
+        // admo kmz file shows on click
+        document.getElementById('adMo').addEventListener('click', function() {
+            var adMo = new google.maps.KmlLayer({
+            url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/admo.kmz',
+            map: map
+          });
         });
 
-        var blommingdale = new google.maps.KmlLayer({
-          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/bloomingdale.kmz',
-          map: map
+        // bloomingdale kmz file shows on click etc. 
+        document.getElementById('bloomingdale').addEventListener('click', function() {
+            var blommingdale = new google.maps.KmlLayer({
+            url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/bloomingdale.kmz',
+            map: map
+          });
         });
 
-        var colHei = new google.maps.KmlLayer({
-          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/columbiaheights.kmz',
-          map: map
+        document.getElementById('colHei').addEventListener('click', function() {
+            var colHei = new google.maps.KmlLayer({
+            url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/columbiaheights.kmz',
+            map: map
+          });
         });
 
-        var capHill = new google.maps.KmlLayer({
-          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/hill.kmz',
-          map: map
+        document.getElementById('capHill').addEventListener('click', function() {
+          var capHill = new google.maps.KmlLayer({
+            url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/hill.kmz',
+            map: map
+          });
         });
 
-        var ivyCity = new google.maps.KmlLayer({
-          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/ivycity.kmz',
-          map: map
+        document.getElementById('ivyCity').addEventListener('click', function() {
+          var ivyCity = new google.maps.KmlLayer({
+            url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/ivycity.kmz',
+            map: map
+          });
         });
 
-        var logansCircle = new google.maps.KmlLayer({
-          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/loganscircle.kmz',
-          map: map
+        document.getElementById('logans').addEventListener('click', function() {
+            var logansCircle = new google.maps.KmlLayer({
+            url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/loganscircle.kmz',
+            map: map
+          });
         });
 
-        var shaw = new google.maps.KmlLayer({
-          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/shaw.kmz',
-          map: map
+        document.getElementById('shaw').addEventListener('click', function() {
+            var shaw = new google.maps.KmlLayer({
+            url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/shaw.kmz',
+            map: map
+          });
         });
 
-        var uStreet = new google.maps.KmlLayer({
-          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/u.kmz',
-          map: map
+        document.getElementById('uSt').addEventListener('click', function() {
+            var uStreet = new google.maps.KmlLayer({
+            url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/u.kmz',
+            map: map
+          });
         });
 
-        var unionMarket = new google.maps.KmlLayer({
-          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/unionmarket.kmz',
-          map: map
+        document.getElementById('union').addEventListener('click', function() {
+            var unionMarket = new google.maps.KmlLayer({
+            url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/unionmarket.kmz',
+            map: map
+          });
         });
-
-        // // load geojson
-        // map.data.loadGeoJson(
-        //   'https://sites.google.com/site/cmtspublickmlfiles/geojson/H_STREET.GEOJSON'
-        // );
       }
     </script>
 
