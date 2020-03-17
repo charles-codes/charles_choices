@@ -36,16 +36,28 @@
       <input id ="uSt" type="button" onCLick="click" value="U Street - (North) 14th St">
       <input id ="union" type="button" onCLick="click" value="NOMA - Union Market">
     </div>
-
+    
     <div id="map"></div>
 
     <script>
       var map;
+      var DC = {lat: 38.905, lng: -77.016};
+      var DC_BOUNDS = {
+        north: 38.995,
+        south: 38.791,
+        west: -77.119,
+        east: -76.909
+      }
 
       function initMap() {
         // base embedded map
         map = new google.maps.Map(document.getElementById('map'), {
-          center: new google.maps.LatLng(38.904, -77.016),
+          // center: new google.maps.LatLng(38.904, -77.016),
+          center: DC,
+          restriction: {
+            latLngBounds: DC_BOUNDS,
+            strictBounds: false,
+          },
           zoom: 13,
         });
 
