@@ -33,6 +33,11 @@
   </head>
 
   <body>
+
+    <div class="hoods">
+      <input id ="h_st_button" type="button" onCLick="click" value="H Street">
+    </div>
+
     <div id="map"></div>
 
     <!-- <div id="capture"></div> -->
@@ -46,6 +51,56 @@
         map = new google.maps.Map(document.getElementById('map'), {
           center: new google.maps.LatLng(38.904, -77.016),
           zoom: 15,
+        });
+
+        var hStreet = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/hstreet.kmz',
+          map: map
+        });
+
+        var adMo = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/admo.kmz',
+          map: map
+        });
+
+        var blommingdale = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/bloomingdale.kmz',
+          map: map
+        });
+
+        var colHei = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/columbiaheights.kmz',
+          map: map
+        });
+
+        var capHill = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/hill.kmz',
+          map: map
+        });
+
+        var ivyCity = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/ivycity.kmz',
+          map: map
+        });
+
+        var logansCircle = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/loganscircle.kmz',
+          map: map
+        });
+
+        var shaw = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/shaw.kmz',
+          map: map
+        });
+
+        var uStreet = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/u.kmz',
+          map: map
+        });
+
+        var unionMarket = new google.maps.KmlLayer({
+          url: 'https://sites.google.com/site/cmtspublickmlfiles/kml/unionmarket.kmz',
+          map: map
         });
 
         // // load geojson

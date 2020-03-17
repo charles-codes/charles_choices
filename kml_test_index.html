@@ -77,13 +77,13 @@
           mapTypeIds: 'terrain',
         });
 
-        console.log(map);
+        console.log("map init" + map);
 
         // Custom kmlLayer via imported .kmz file
         var kmlLayer = new google.maps.KmlLayer(src, {
           map: map
         });
-        console.log(kmlLayer);
+        console.log("kml layer" + kmlLayer);
 
         // On click listener that will pop up info window
         kmlLayer.addListener('click', function(event) {
