@@ -3,12 +3,25 @@ html, body {
   background-color: #ae9e90;
   }
 
+#button-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
 .buttons {
   font-size: 1rem;
-  margin: .4rem;
+  margin: .2rem;
+  padding: .2rem;
   float: left;
   background-color: #ebe3cd;
   color: black;
+  border-radius: 10px;
+}
+
+#clear {
+  background-color: rgb(197, 59, 59);
+  color: white;
 }
 
 /* .buttons::selection {
