@@ -3,13 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>charles' choices kml layering</title>
+    <title>charles' choices kmz layering</title>
 
     <style>
       html, body {
-        height: 90%;
-        padding: 0;
-        margin: 25px;
+        height: 100%;
         }
 
       .buttons {
@@ -37,14 +35,8 @@
   </head>
 
   <body>
-
-    <div class="dropdown">
-      <button class="dropbtn">Neighborhoods</button>
-        <div class="dropdown-content">
+        <div>
           <input id="hSt" class="buttons" type="button" onCLick="click" value="H St Corridor - Trinidad">
-
-          <input id="hStHide" class="buttons" type="button" onCLick="click" value="H St HIDE">
-
           <input id="adMo" class="buttons" type="button" onCLick="click" value="Adams Morgan">
           <input id="bloomingdale" class="buttons" type="button" onCLick="click" value="Bloomingdale">
           <input id="colHei" class="buttons" type="button" onCLick="click" value="Columbia Heights - Georgia Ave - Petworth">
@@ -56,8 +48,7 @@
           <input id="union" class="buttons" type="button" onCLick="click" value="NOMA - Union Market">
           <input id="clear" class="buttons" type="button" onCLick="click" value="CLEAR">
         </div>
-    </div>
-    
+
     <div id="map"></div>
 
     <script>
@@ -183,7 +174,7 @@
     </script>
 
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdoj7GwknJjrIT0oRIxKHyve6mtQRqbhY&callback=initMap">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdoj7GwknJjrIT0oRIxKHyve6mtQRqbhY&callback=initMap">
     </script>
   </body>
 </html>
