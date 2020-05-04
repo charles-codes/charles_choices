@@ -1,23 +1,25 @@
 html, body {
-  height: 90%;
-  padding: 0;
-  margin: 25px;
+  height: 100%;
   }
+
+.buttons {
+  font-size: 1rem;
+  margin: .4rem;
+  float: left;
+}
+
+.buttons:hover {
+  color: red;
+  transform: scale(1.5);
+}
+
+.buttons {
+  color: green;
+}
 
 #map {
 height: 100%;
 width: 100%;
 overflow: hidden;
-float: left;
 border: thin solid #333;
-}
-
-#capture {
-height: 240px;
-width: 480px;
-overflow: hidden;
-float: left;
-background-color: #ECECFB;
-border: thin solid #333;
-border-left: none;
 }

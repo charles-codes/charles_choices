@@ -5,33 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>charles' choices kmz layering</title>
 
-    <style>
-      html, body {
-        height: 100%;
-        }
-
-      .buttons {
-        font-size: 1rem;
-        margin: .4rem;
-        float: left;
-      }
-
-      .buttons:hover {
-        color: red;
-        transform: scale(1.5);
-      }
-
-      .buttons {
-        color: green;
-      }
-
-      #map {
-      height: 100%;
-      width: 100%;
-      overflow: hidden;
-      border: thin solid #333;
-      }
-    </style>
+    <!-- link to external stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
@@ -47,7 +22,7 @@
       <input id="shaw" class="buttons" type="button" onCLick="click" value="LeDroit Park - Shaw - Mt Vernon Sq">
       <input id="uSt" class="buttons" type="button" onCLick="click" value="U Street - (North) 14th St">
       <input id="union" class="buttons" type="button" onCLick="click" value="NOMA - Union Market">
-      <input id="clear" class="buttons" type="button" onCLick="click" value="CLEAR">
+      <input id="clear" class="buttons" type="button" onCLick="click" value="CLEAR MAP">
     </div>
 
     <!-- empty div to hold the map -->
