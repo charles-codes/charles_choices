@@ -7,6 +7,12 @@ html, body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin: 3px;
+}
+
+#header-container {
+  border-bottom: solid black 3px;
+  margin-bottom: 4px;
 }
 
 header, #subheader, #header-divider {
@@ -30,7 +36,7 @@ header {
 }
 
 .buttons {
-  font-size: 1rem;
+  font-size: .75rem;
   margin: .2rem;
   padding: .2rem;
   float: left;
