@@ -24,11 +24,6 @@ html, body {
   color: white;
 }
 
-/* .buttons::selection {
-  color: red;
-  transform: scale(1.5);
-} */
-
 #map {
 height: 100%;
 width: 100%;
