@@ -24,6 +24,12 @@ header {
   font-size: 2.5rem;
 }
 
+.first-letters {
+  font-size: 3.5rem;
+  color: #ebe3cd;
+  text-shadow: 2px 2px black;
+}
+
 #header-divider {
   font-size: 3rem;
   color: #ebe3cd;
