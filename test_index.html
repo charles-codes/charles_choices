@@ -178,16 +178,16 @@
               }
             ],
         });
+        
         infoWindow = new google.maps.InfoWindow;
 
-        // Try HTML5 geolocation.
+        // HTML5 GeoLocation conditional checking for browser compatibility with GeoLocation
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(function(position) {
             var pos = {
               lat: position.coords.latitude,
               lng: position.coords.longitude
             };
-
             infoWindow.setPosition(pos);
             infoWindow.setContent('Location found.');
             infoWindow.open(map);
@@ -196,11 +196,12 @@
             handleLocationError(true, infoWindow, map.getCenter());
           });
         } else {
-          // Browser doesn't support Geolocation
+          // else browser doesn't support Geolocation
           handleLocationError(false, infoWindow, map.getCenter());
         }
       }
 
+      // function for handling any errors in GeoLocation attempt
       function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         infoWindow.setPosition(pos);
         infoWindow.setContent(browserHasGeolocation ?
