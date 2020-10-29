@@ -12,7 +12,8 @@ html, body {
 
 #header-container {
   border-bottom: solid black 3px;
-  margin-bottom: 4px;
+  margin: -15px -15px 4px -15px;
+  background-color: #ebe3cd
 }
 
 header, #subheader, #header-divider {
@@ -26,7 +27,7 @@ header {
 
 .first-letters {
   font-size: 3.5rem;
-  color: #ebe3cd;
+  color: white;
   text-shadow: 2px 2px black;
 }
 
