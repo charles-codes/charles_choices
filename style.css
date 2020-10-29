@@ -7,13 +7,21 @@ html, body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin: 3px;
+  margin-bottom: 3px;
 }
 
 #header-container {
   border-bottom: solid black 3px;
   margin: -15px -15px 4px -15px;
-  background-color: #ebe3cd
+  /* background-color: #ebe3cd */
+  background-color: #ebe3cd;
+  background-image:
+  radial-gradient(circle at 100% 150%, #ebe3cd 24%, white 24%, white 28%, #ebe3cd 28%, #ebe3cd 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, #ebe3cd 24%, white 24%, white 28%, #ebe3cd 28%, #ebe3cd 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, #ebe3cd 10%, #ebe3cd 23%, white 23%, white 30%, #ebe3cd 30%, #ebe3cd 43%, white 43%, white 50%, #ebe3cd 50%, #ebe3cd 63%, white 63%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, #ebe3cd 5%, #ebe3cd 15%, white 15%, white 20%, #ebe3cd 20%, #ebe3cd 29%, white 29%, white 34%, #ebe3cd 34%, #ebe3cd 44%, white 44%, white 49%, transparent 49%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, #ebe3cd 5%, #ebe3cd 15%, white 15%, white 20%, #ebe3cd 20%, #ebe3cd 29%, white 29%, white 34%, #ebe3cd 34%, #ebe3cd 44%, white 44%, white 49%, transparent 49%, transparent);
+  background-size: 100px 50px;
 }
 
 header, #subheader, #header-divider {
@@ -27,8 +35,8 @@ header {
 
 .first-letters {
   font-size: 3.5rem;
-  color: white;
-  text-shadow: 2px 2px black;
+  color: black;
+  text-shadow: 2px 2px #ebe3cd;
 }
 
 #header-divider {
@@ -39,18 +47,21 @@ header {
 
 #subheader {
   font-size: 1.25rem;
-  text-decoration: underline #ebe3cd;
+  text-decoration: underline black;
 }
 
 .buttons {
   font-size: .75rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: .2rem;
-  padding: .2rem;
-  float: left;
-  background-color: #ebe3cd;
+  padding: .3rem;
   color: white;
   border-radius: 15px;
+}
+
+.buttons:hover {
+  transform: scale(1.5);
+  transition-duration: .75s;
 }
 
 #chinatown {
