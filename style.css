@@ -148,7 +148,7 @@ border-radius: 15px;
 
 /* style for about modal */
 #about_text {
-  display: none;
+  /* visibility: hidden; */
 }
 
 .modal {

@@ -26,6 +26,12 @@
         <i class="fas fa-hamburger"></i>
         <i class="fas fa-bread-slice"></i>
         <i class="fas fa-cheese"></i>
+
+        <div id="about_modal">
+          <h4 id="about_h4">ABOUT</h4>
+          <p id="about_text" class="modal"></p>
+        </div>
+
       </header>
     </div>
 
@@ -309,6 +315,19 @@
 
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdoj7GwknJjrIT0oRIxKHyve6mtQRqbhY&callback=initMap">
+    </script>
+
+    <script type="text/javascript">
+      var modal = document.getElementById("about_modal");
+      var about = document.getElementById("about_h4");
+      var text = document.getElementById("about_text");
+
+      about.onclick = function() {
+        console.log("I clicked the about <h2> element.")
+        text.innerHTML = "About words and stuff regarding what the webpage is all about yo";
+        // text.style.visibility = "visible";
+      }
+      
     </script>
   </body>
 </html>
