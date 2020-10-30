@@ -61,6 +61,7 @@ header {
 
 .buttons:hover {
   transform: scale(1.5);
+  opacity: 85%;
   transition-duration: .75s;
 }
 
@@ -118,11 +119,18 @@ header {
 }
 
 #clear {
-  background-color: rgb(197, 59, 59);
-  color: white;
+  background-color: #ebe3cd;
+  color: black;
   border-radius: none;
   font-size: 1rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 200px;
+  letter-spacing: 4px;
+}
+
+#clear:hover {
+  transform: scale(1.2);
+  transition-duration: .75s;
 }
 
 #map {
