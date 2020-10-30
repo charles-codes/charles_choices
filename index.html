@@ -33,8 +33,14 @@
         <i class="fas fa-bread-slice"></i>
         <i class="fas fa-cheese"></i>
 
-        <!-- <p id="about_p">ABOUT</p>
-        <p id="about_text" class="modal"></p> -->
+        <span id="header-divider"> / </span>
+
+        <i id="about_icon" class="fas fa-info-circle"></i>
+
+        <div id="about_modal" class="modal">
+          <span class="close">&times;</span>
+          <p class="modal_content" id="modal_text"></p>
+        </div>
 
       </header>
     </div>
@@ -330,6 +336,24 @@
         console.log("I clicked the about <h2> element.")
         text.innerHTML = "About words and stuff regarding what the webpage is all about yo";
         // text.style.visibility = "visible";
+      }
+    </script>
+
+    <script type="text/javascript">
+      var modal = document.getElementById("about_modal");
+      var modalClick = document.getElementById("about_icon");
+
+      var modalAbout = document.getElementById("modal_text");
+
+      modalClick.onclick = function() {
+        modal.style.display = "block";
+        modalAbout.innerHTML = "asdfasdfsadfasdfasdf";
+      }
+
+      var span = document.getElementsByClassName("close")[0];
+
+      span.onclick = function() {
+        modal.style.display = "none";
       }
     </script>
   </body>
